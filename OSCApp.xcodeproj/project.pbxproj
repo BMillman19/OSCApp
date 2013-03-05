@@ -19,6 +19,7 @@
 		3D596AE016DEC454002C141F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D596ADF16DEC454002C141F /* ViewController.m */; };
 		3D596AE316DEC454002C141F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D596AE116DEC454002C141F /* ViewController.xib */; };
 		3D596B0416DEC503002C141F /* libVVOSC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D596B0316DEC503002C141F /* libVVOSC.a */; };
+		3D5E14A616E5BD2E002D1E99 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E14A516E5BD2E002D1E99 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		3D596B0116DEC4F8002C141F /* VVStopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVStopwatch.h; sourceTree = "<group>"; };
 		3D596B0216DEC4F8002C141F /* VVThreadLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVThreadLoop.h; sourceTree = "<group>"; };
 		3D596B0316DEC503002C141F /* libVVOSC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVVOSC.a; sourceTree = "<group>"; };
+		3D5E14A516E5BD2E002D1E99 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5E14A616E5BD2E002D1E99 /* AudioToolbox.framework in Frameworks */,
 				3D596AC716DEC454002C141F /* UIKit.framework in Frameworks */,
 				3D596AC916DEC454002C141F /* Foundation.framework in Frameworks */,
 				3D596ACB16DEC454002C141F /* CoreGraphics.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		3D596AC516DEC454002C141F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D5E14A516E5BD2E002D1E99 /* AudioToolbox.framework */,
 				3D596AC616DEC454002C141F /* UIKit.framework */,
 				3D596AC816DEC454002C141F /* Foundation.framework */,
 				3D596ACA16DEC454002C141F /* CoreGraphics.framework */,
@@ -325,6 +329,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OSCApp/OSCApp-Prefix.pch";
 				INFOPLIST_FILE = "OSCApp/OSCApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -344,6 +349,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OSCApp/OSCApp-Prefix.pch";
 				INFOPLIST_FILE = "OSCApp/OSCApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
